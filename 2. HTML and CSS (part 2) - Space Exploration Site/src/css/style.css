@@ -1,6 +1,9 @@
 
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     color: #82a5ca;
     margin: 0px;
     background-size: auto;
@@ -9,8 +12,13 @@ body {
 }
 
 #hero {
+    min-height: 20vh;
     background-image: url("../../images/background-main.jpg");
     padding: 20px;
+}
+
+#hero h1 {
+    text-shadow: 1px 1px 2px white;
 }
 
 #main-logo {
@@ -26,6 +34,16 @@ body {
     font-family: inherit;
 }
 
+#main {
+    flex: 1;
+}
+
+#footer {
+    min-height: 10vh;
+    background-color: lightgray;
+}
+
 .underline {
     text-decoration: underline 3px;
 }
+
