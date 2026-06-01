@@ -8,7 +8,8 @@ Any feedback and tips are always appreciated, just keep it polite :]
 ## My Progress So Far
 Below you will find a list of projects I've done as i've been learning.
 
-1) A basic business card using HTML and CSS. New things learned:
+1) A basic business card using HTML and CSS.
+   New things I have learned in this project learned:
 * Basic HTML and CSS file layout.
 * Basic HTML tags including headings, paragraphs, divs, images, and lists.
 * Basic CSS styling using flexbox, text formatting, and classes.
