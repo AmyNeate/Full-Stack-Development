@@ -1,0 +1,89 @@
+
+body {
+    text-align: center;
+    font-family: Arial;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 720px;
+    margin: 0px auto;
+}
+
+.header {
+    width: 720px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../images/beach.png");
+    background-size:auto auto;
+}
+
+.header h1 {
+    width: 325px;
+    height: 40px;
+    color: white;
+    background-color: #1D3557;
+    font-size: 32px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+.header h2 {
+    width: 520px;
+    background-color: #457b9dae;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.activities {
+    width: 720px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F1FAEE;
+}
+
+.activities h3 {
+    width: 100%;
+}
+
+.activities img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.beach {
+    max-width: 200px;
+    margin: 0px 10px;
+    padding: 10px
+}
+
+.gardens {
+    max-width: 200px;
+    margin: 0px 10px;
+    padding: 10px
+}
+
+.oceanarium {
+    max-width: 200px;
+    margin: 0px 10px;
+    padding: 10px
+}
+
+.guide {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #A8DADC;
+    box-shadow: 0px 6px 0px 0px #1D3557;
+    border-radius: 10px;
+    margin: 50px 160px;
+}
