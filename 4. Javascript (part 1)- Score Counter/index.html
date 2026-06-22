@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./src/css/style.css">
+        <title>Passenger Counter</title>
+    </head>
+    <body>
+        <div class="container">
+            <div id="home">
+                <h3>HOME</h3>
+                <h3 class="scoreBox" id="homeScoreText">00</h3>
+                <div class="increaseButtons">
+                    <button onclick="addScore(1, 'home')">+1</button>
+                    <button onclick="addScore(2, 'home')">+2</button>
+                    <button onclick="addScore(3, 'home')">+3</button>
+                </div>
+            </div>
+            <div id="guest">
+                <h3>GUEST</h3>
+                <h3 id="guestScoreText" class="scoreBox">00</h3>
+                <div class="increaseButtons">
+                    <button onclick="addScore(1, 'guest')">+1</button>
+                    <button onclick="addScore(2, 'guest')">+2</button>
+                    <button onclick="addScore(3, 'guest')">+3</button>
+                </div>
+            </div>
+            <div class="resetButton">
+                <button onclick="resetScores()">Reset Scores</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

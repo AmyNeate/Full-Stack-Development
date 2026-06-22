@@ -21,3 +21,7 @@ Below you will find a list of projects I've done as i've been learning.
    * Solidifying knowledge of flexbox layouts and how to align items within a page.
    * Increased udnerstanding of using images for background with the CSS URL item.
    * Using a wrapper to align my page centrally and set a custom width for the page.
+4) My first fully solo javascript based project. I already had a pretty good knowledge of JS going in to this however I have still enjoyed using it alongside HTML and CSS. <br> New things I have learned in this project:
+   * Javascript variables, mathematical operators, basic functions, and conditional statements.
+   * Using button onclick events to run javascript functions.
+   * Getting HTML elements and editing their content in Javascript.
